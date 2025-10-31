@@ -38,7 +38,7 @@ Avant d’installer le projet, assurez-vous d’avoir :
 
 ### 1. Cloner le projet
 ```bash
-git clone <URL_DU_REPO>
+git clone  https://github.com/AsmaTechAI/CineManageSystem.git
 cd CineManageNode
 2. Importer la base de données
 Créez une base de données MySQL (ex. cinemanage)
