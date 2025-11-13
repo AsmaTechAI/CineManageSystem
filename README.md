@@ -77,7 +77,7 @@ Accédez au projet via votre navigateur : http://localhost/CineManageNode/
 
 ### Structure du projet
 
-
+```bash
 CineManageNode/
 │
 ├─ index.php           # Page d’accueil
@@ -89,6 +89,7 @@ CineManageNode/
 ├─ includes/           # Fichiers PHP réutilisables (header, footer, fonctions)
 ├─ pages/              # Pages principales du système
 └─ cinemanage_db.sql   # Fichier de la base de données
+```
 
 ### 5.Sécurité et bonnes pratiques
   **Évitez d’exposer config.php sur un serveur public**
