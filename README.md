@@ -51,33 +51,31 @@ Avant d’installer le projet, assurez-vous d’avoir :
 ```bash
 git clone  https://github.com/AsmaTechAI/CineManageSystem.git
 cd CineManageNode
-2. Importer la base de données
+```
+### 2. Importer la base de données
 Créez une base de données MySQL (ex. cinemanage)
 
 Importez le fichier SQL fourni (cinemanage_db.sql) via phpMyAdmin ou en ligne de commande :
 
-bash
-Copy code
+```bash
 mysql -u root -p cinemanage < cinemanage_db.sql
-3. Configurer la connexion à la base de données
+```
+### 3. Configurer la connexion à la base de données
 Modifiez le fichier config.php avec vos informations MySQL :
-
 
 $host = "localhost";
 $username = "root";
 $password = "";
 $database = "cinemanage";
-4. Lancer le serveur
+
+### 4. Lancer le serveur
 Placez le projet dans le dossier htdocs (XAMPP) ou équivalent
 
 Démarrez Apache et MySQL
 
-Accédez au projet via votre navigateur :
+Accédez au projet via votre navigateur : http://localhost/CineManageNode/
 
-
-
-http://localhost/CineManageNode/
-Structure du projet
+### Structure du projet
 
 
 CineManageNode/
@@ -91,19 +89,18 @@ CineManageNode/
 ├─ includes/           # Fichiers PHP réutilisables (header, footer, fonctions)
 ├─ pages/              # Pages principales du système
 └─ cinemanage_db.sql   # Fichier de la base de données
-Sécurité et bonnes pratiques
-Évitez d’exposer config.php sur un serveur public.
 
-Utilisez des mots de passe forts pour MySQL et les utilisateurs.
+### 5.Sécurité et bonnes pratiques
+  **Évitez d’exposer config.php sur un serveur public**
+  
+  **Utilisez des mots de passe forts pour MySQL et les utilisateurs.**
+  
+  **Filtrez et validez toutes les entrées utilisateurs pour éviter les injections SQL.**
+  
+  **Activez HTTPS sur votre serveur pour sécuriser les connexions.**
 
-Filtrez et validez toutes les entrées utilisateurs pour éviter les injections SQL.
 
-Activez HTTPS sur votre serveur pour sécuriser les connexions.
-
-Contribution
-Les contributions sont les bienvenues !
-
-Fork le projet
+### Fork le projet
 
 Créez une branche pour votre fonctionnalité (git checkout -b feature/ma-fonctionnalité)
 
