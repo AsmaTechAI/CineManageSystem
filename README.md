@@ -13,7 +13,9 @@ Développé avec **HTML, CSS, PHP** pour le backend et **MySQL** pour la base de
 - Gestion des projections et réservations  
 - Interface web intuitive et responsive  
 
-### 🎯 Objectif du projet
+---
+
+### Objectif du projet
 
 Le travail consiste à **améliorer et modifier le système CineManageNode**. Le développement se déroule en **quatre grandes phases suivant une approche agile**.  
 
